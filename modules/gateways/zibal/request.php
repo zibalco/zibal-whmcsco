@@ -53,7 +53,7 @@ $parameters = array(
     "merchant"=> $apiKey,//required
     "callbackUrl"=> urlencode($callbackUrl),//required
     "amount"=> $paymentAmount,//required
-    "reseller":"whmcsco",
+    "reseller"=>"whmcsco",
     "orderId"=> $invoiceId,//optional
 
 );
